@@ -1,0 +1,40 @@
+/* NAVBAR CSS */
+.navbar {
+    font-weight: bold;
+}
+
+#navbarNav {
+    place-content: center;
+}
+
+#navbarNav li {
+    padding-right: 30px;
+}
+
+.dropdown-item.active {
+    background-color: black;
+}
+
+
+body {
+    background-image: url('https://www.bentleymotors.com/content/dam/bentley/Master/Models/derivative-strategy-/continental-gt/continental-gt-azure/deriv%20hero%201920x960%20GT_Azure_Static_RGB.jpg/_jcr_content/renditions/original.image_file.1920.960.file/deriv%20hero%201920x960%20GT_Azure_Static_RGB.jpg');
+    background-size:cover;
+    background-position: right; /* change according to location of car*/
+    height:100vh;
+}
+
+#box {
+    
+    position:absolute;
+    width:30vw;
+    min-width:400px;
+    height:70vh;
+    left:10vw;
+    top:30vh;
+    background: black;
+    mix-blend-mode: normal;
+    opacity:0.5;
+
+
+}
+
