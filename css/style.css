@@ -76,3 +76,41 @@ body {
     font-size: 15pt;
 }
 
+.js-scroll {
+    width: 50%;
+    height: 300px;
+    color: black;
+    transition: color 2500ms;
+  }
+   
+  .js-scroll.scrolled {
+    color: rgb(255, 255, 255);
+  }
+
+  .scrolled.slide-right {
+    animation: slide-in-right 1.2s ease-in-out both;
+  }
+
+  @keyframes slide-in-right {
+    0% {
+      transform: translateX(100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+
+  .fade{
+    animation: fadeIn 1.5s ease-in-out both;
+  }
